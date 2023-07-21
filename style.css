@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  /* Positioning */
+  
+  .profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+    color: white;
+    
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://img.freepik.com/premium-photo/illustration-neon-tropical-theme-with-palm-tree-exotic-floral-ai_564714-1270.jpg'
+    ) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .head, .links {
+    text-align: center;
+    font-family: Monaco, monospace;
+  }
+  
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .content {
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+  }
+  
+  .head, .about {
+    margin-bottom: 10%;
+  }
+  
+  .content {
+    padding: 5% 10%;
+  }
+  
+  /* Profile image */
+  
+  .profile-image {
+    margin-top: -60px;
+  }
+  
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #666;
+    filter: grayscale(50%);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  img:hover {
+    filter: grayscale(20%);
+    transform: scale(1.1);
+  }
+  
+  .profile-card {
+    background-color: hsla(240, 100%, 0%, .8);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, -90%, .8) 10px 10px 80px;
+    font-family: Monaco, monospace;
+  }
+  
+  /* Contact links */
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
